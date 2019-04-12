@@ -1,4 +1,9 @@
-# tools-composer
+# 操作
+~~~ 
+composer require leijiongbin/tools 
+~~~
+
+# 记录
 
 1.0.0版本支持模块：
 - class Error 错误信息管理
