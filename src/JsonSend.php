@@ -27,11 +27,12 @@ class JsonSend {
                 header($name . ':' . $val);
             }
         }
-        return wp_send_json(array(
+
+        return json_encode(array(
             'code' => $code,
             'msg' => $msg,
             'data' => $data
-        ));
+        ),JSON_UNESCAPED_UNICODE);
     }
 
     /**
